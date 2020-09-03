@@ -27,7 +27,7 @@ const removeFromArray = function(workOn) {
     return answer;
 }
 */
-
+/*
 const removeFromArray = function(workOn, ...toBeRemoved) {
 
     
@@ -47,7 +47,7 @@ const removeFromArray = function(workOn, ...toBeRemoved) {
     return answer;
 }
 
-/*
+*/
 //function to filter out null values
 function notNull(value){
     console.log("valuePass value is: ", value)
@@ -90,6 +90,6 @@ const removeFromArray = function(workOn) {
    // answer.concat(valuePass.filter(notNull()));
 
 }
-*/
+
 
 module.exports = removeFromArray;
