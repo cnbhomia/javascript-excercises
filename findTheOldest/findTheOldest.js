@@ -22,6 +22,22 @@ let findTheOldest = function(persons) {
 }
 */
 
+/*
+**************** Sol3 - this works *******************
+let age=0;
+let maxAgePerson = people[0]
+people.forEach(person => {
+        personAge = person.yearOfDeath? (person.yearOfDeath - person.yearOfBirth) : (new Date().getFullYear() - person.yearOfBirth)
+        console.log(personAge);
+         if(personAge>age){
+            console.log(maxAgePerson)
+            maxAgePerson = person
+            console.log(maxAgePerson)
+            age = personAge;
+        }  
+})
+*/
+
 
 //******************SOL 2********************************* */
 
